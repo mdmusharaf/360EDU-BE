@@ -12,7 +12,7 @@
 //   TODO: trigger email to sender when admin replies (notifications module)
 
 const { validationResult } = require("express-validator");
-const ContactMessage = require("../../models/ContactMessage.model");
+const ContactMessage = require("../../models/contactMessage.model");
 const ApiError = require("../../utils/ApiError");
 const ApiResponse = require("../../utils/ApiResponse");
 const asyncHandler = require("../../utils/asyncHandler");
