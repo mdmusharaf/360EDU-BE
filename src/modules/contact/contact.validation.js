@@ -1,7 +1,7 @@
 // src/modules/content/contactMessages.validation.js
 
 const { body, query } = require("express-validator");
-const { MESSAGE_TYPES } = require("../../models/ContactMessage.model");
+const { MESSAGE_TYPES } = require("../../models/contactMessage.model");
 
 // ─── Public: Submit form ───────────────────────────────────────────────────────
 const submitFormValidation = [
